@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainClass{
+    display: flex;
+    background-color: #ffe4c4;
+    color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.getUserInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#weightScore{
+    margin-bottom: 65px;
+}

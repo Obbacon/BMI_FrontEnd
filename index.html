@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" href="main.css">
 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <body>
+        <script src="main.js"></script>
+        <div class="mainClass">
+            <h1 class="mainHead">Body Mass Index Calculator</h1>
+            <p class="output">Here is your total BMI: </p>
+            <p class="weightScore">Weight Category: </p>
+            <div class="getUserInput">
+                <div class="numbers">
+                    <input type="text" id="weight" placeholder="Please enter your weight: 100kg">
+                    <input type="text" id="height" placeholder="Please enter your height: 1.8m">
+                </div>
+                <div class="button">
+                    <input type="submit" value="Calculate" id="button" onclick="trueResult()">
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
