@@ -17,6 +17,10 @@ body{
     margin-top: 50px;
 }
 
+.mainHead{
+    letter-spacing: 0.06em;
+}
+
 .getUserInput{
     display: flex;
     align-items: center;
@@ -26,4 +30,29 @@ body{
 
 #weightScore{
     margin-bottom: 65px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.numbers input{
+    margin: 0 20px;
+    border: none;
+    border-bottom: 1px solid #ffe4c4;
+    text-align: center;
+    color: azure;
+    background-color: black;
+}
+
+#button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 12px;
+    margin: 40px 0;
+    color: darkslategray;
+    background-color: coral;
 }

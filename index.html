@@ -12,15 +12,15 @@
         <script src="main.js"></script>
         <div class="mainClass">
             <h1 class="mainHead">Body Mass Index Calculator</h1>
-            <p class="output">Here is your total BMI: </p>
-            <p class="weightScore">Weight Category: </p>
+            <p id="output">Here is your total BMI: </p>
+            <p id="weightScore">Weight Category: </p>
             <div class="getUserInput">
                 <div class="numbers">
-                    <input type="text" id="weight" placeholder="Please enter your weight: 100kg">
-                    <input type="text" id="height" placeholder="Please enter your height: 1.8m">
+                    <input type="text" id="weight" placeholder="Enter weight: 100kg ">
+                    <input type="text" id="height" placeholder="Enter height: 1.8m ">
                 </div>
                 <div class="button">
-                    <input type="submit" value="Calculate" id="button" onclick="trueResult()">
+                    <input type="submit" value="Calculate" id="button" onclick="output()">
                 </div>
             </div>
         </div>
